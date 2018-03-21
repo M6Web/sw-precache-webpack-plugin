@@ -49,7 +49,7 @@
   },
   "dependencies": {
     "del": "^3.0.0",
-    "sw-precache": "^5.2.1",
+    "sw-precache": "git+https://github.com/M6Web/sw-precache#feat-negative-globs",
     "uglify-es": "^3.3.9"
   },
   "devDependencies": {
