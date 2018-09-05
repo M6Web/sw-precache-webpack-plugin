@@ -28,8 +28,9 @@ node_modules/
 # Compass
 .sass-cache
 
+# Comment build output ignore to be able to point to it
 # Build
-lib/
+#lib/
 
 # Test tmp
 test/tmp/
