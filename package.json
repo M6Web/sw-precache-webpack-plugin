@@ -1,6 +1,6 @@
 {
   "name": "sw-precache-webpack-plugin",
-  "version": "0.11.5",
+  "version": "0.11.5-m6web",
   "description": "Webpack plugin for using service workers",
   "main": "lib/index.js",
   "scripts": {
@@ -29,16 +29,19 @@
     "service",
     "worker"
   ],
+  "publishConfig": {
+    "registry": "https://verdaccio.m6web.fr/"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goldhand/sw-precache-webpack-plugin.git"
+    "url": "git+https://github.com/M6Web/sw-precache-webpack-plugin.git"
   },
   "author": "Will Farley <a.will.farley@gmail.com> (http://www.willfarley.org/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/goldhand/sw-precache-webpack-plugin/issues"
+    "url": "https://github.com/M6Web/sw-precache-webpack-plugin/issues"
   },
-  "homepage": "https://github.com/goldhand/sw-precache-webpack-plugin#readme",
+  "homepage": "https://github.com/M6Web/sw-precache-webpack-plugin#readme",
   "directories": {
     "example": "./examples",
     "lib": "./src",
@@ -49,7 +52,7 @@
   },
   "dependencies": {
     "del": "^3.0.0",
-    "sw-precache": "git+https://github.com/M6Web/sw-precache#v5.3.0",
+    "sw-precache": "5.2.1-m6web",
     "uglify-es": "^3.3.9"
   },
   "devDependencies": {
